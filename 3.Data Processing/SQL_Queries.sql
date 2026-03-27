@@ -61,11 +61,11 @@ unit_price,
 product_category,
 product_type,
 product_detail,
-----EXtracting Day,Month,Day_of_Month and Hour
+----EXtracting by Day,Month and Day_of_Month
 Dayname(transaction_date) AS Day_name,
 Monthname(transaction_date) AS Month_name,
 Dayofmonth(transaction_date) AS Day_of_Month,
-HOUR(transaction_time) AS HOUR,
+
 ----Day Classification 
 CASE 
   WHEN Dayname(transaction_date) IN ('Sun','Sat') THEN 'Weekend'
