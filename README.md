@@ -12,9 +12,9 @@
 -💻**SQL Code** - Includes all queries used for data transformation and insights.
 [> 🔗 View SQL Scripts](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/3.Data%20Processing/SQL_Queries.sql)
 
--**📊Excel Pivot Table** - is available in PDF format within this repository.- [>🔗View Pivot Table](https://github.com/Njabulo-Nkosi-Analyst/Coffee-Shop-Sales-Analysis/blob/main/02_Analysis/Coffee%20pivot.pdf)
+-**📊Excel Pivot Table** - is available in PDF format within this repository.- [>🔗View Pivot Table](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/3.Data%20Processing/Pivot%20dashboard.pdf)
 
--**📽️Full presentation** - is available in PDF format within this repository.- [>🔗View Presentation](https://github.com/Njabulo-Nkosi-Analyst/Coffee-Shop-Sales-Analysis/commit/da4f0e700986b4f4272f42b1c353c4f9c040e5ee
+-**📽️Full presentation** - is available in PDF format within this repository.- [>🔗View Presentation]()
 
 -**🧹Uncleaned Data** - is available in CSV format within this repository.- [>🔗View Uncleaned Data](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/1.Project%20Description%20%26%20Raw%20Data/Bright_Coffee_Shop_Analysis_-_Raw%20Data.csv)
 
