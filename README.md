@@ -18,7 +18,7 @@
 
 -**🧹Uncleaned Data** - is available in CSV format within this repository.- [>🔗View Uncleaned Data](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/1.Project%20Description%20%26%20Raw%20Data/Bright_Coffee_Shop_Analysis_-_Raw%20Data.csv)
 
--**✨Cleaned Data** - is available in CSV format within this repository.- [>🔗View Cleaned Data](https://github.com/Njabulo-Nkosi-Analyst/Coffee-Shop-Sales-Analysis/blob/main/01_Data/Insights%20data.csv)
+-**✨Cleaned Data** - is available in EXcell format within this repository.- [>🔗View Cleaned Data](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/3.Data%20Processing/Clean%20Data.xlsx)
 
 -**📝Project Description** - This File Shows The Objective And Aims Of The New CEO.- [>🔗 View Project Description](https://github.com/Njabulo-Nkosi-Analyst/Coffee-Shop-Sales-Analysis/blob/main/03_Documentation/Bright%20Coffee%20Shop%20Sales%20Analysis%20(BRIGHTLIGHT).pdf)
 
@@ -26,7 +26,7 @@
 
 
 -🧠 **Miro Planning** - This includes project goals, KPIs, filters, and design planning
-[> 🔗View Miro Board](https://github.com/Njabulo-Nkosi-Analyst/Coffee-Shop-Sales-Analysis/commit/3a970fd81c9181099ae96758d3f5d104bf287605)
+[> 🔗View Miro Board](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/2.Project%20Planning/Miro%20Flowchart.png)
 
 
 ## 📩 Contact
