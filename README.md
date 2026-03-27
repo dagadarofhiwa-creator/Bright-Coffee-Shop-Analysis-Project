@@ -16,7 +16,7 @@
 
 -**📽️Full presentation** - is available in PDF format within this repository.- [>🔗View Presentation](https://github.com/Njabulo-Nkosi-Analyst/Coffee-Shop-Sales-Analysis/commit/da4f0e700986b4f4272f42b1c353c4f9c040e5ee
 
--**🧹Uncleaned Data** - is available in CSV format within this repository.- [>🔗View Uncleaned Data](https://github.com/Njabulo-Nkosi-Analyst/Coffee-Shop-Sales-Analysis/blob/main/01_Data/Bright%20Coffee%20Shop%20Analysis.xlsx%20-%20Transactions.csv)
+-**🧹Uncleaned Data** - is available in CSV format within this repository.- [>🔗View Uncleaned Data](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/1.Project%20Description%20%26%20Raw%20Data/Bright_Coffee_Shop_Analysis_-_Raw%20Data.csv)
 
 -**✨Cleaned Data** - is available in CSV format within this repository.- [>🔗View Cleaned Data](https://github.com/Njabulo-Nkosi-Analyst/Coffee-Shop-Sales-Analysis/blob/main/01_Data/Insights%20data.csv)
 
