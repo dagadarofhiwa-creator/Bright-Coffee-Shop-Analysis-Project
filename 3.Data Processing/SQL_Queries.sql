@@ -48,47 +48,64 @@ SELECT unit_price,
        transaction_qty,
        (transaction_qty*unit_price) AS Revenue
 FROM `casestudy`.`brightcoffee`.`bright_coffee_shop1`
---11  Combining functions to get a clean dataset 
+
+
+
+
+-----------------Mian SQL Script
+
+
 SELECT 
-transaction_id,
+
+---EXtracting Day,Month and Day_of_Month
+
 transaction_date,
-transaction_time,
-transaction_qty,
-store_id,
-store_location,
-product_id,
-unit_price,
-product_category,
-product_type,
-product_detail,
-----EXtracting by Day,Month and Day_of_Month
 Dayname(transaction_date) AS Day_name,
 Monthname(transaction_date) AS Month_name,
 Dayofmonth(transaction_date) AS Day_of_Month,
 
-----Day Classification 
+-----Day Classification
+
 CASE 
-  WHEN Dayname(transaction_date) IN ('Sun','Sat') THEN 'Weekend'
+  WHEN DAYNAME(transaction_date) IN('Sun','Sat') THEN 'Weekend' 
   ELSE 'Weekday'
   END AS Day_classification,
------Time Classification
+  ----date format trasanction_time
 CASE
- WHEN date_format(transaction_time,'HH:mm:ss') BETWEEN  '06:00:00' AND '11:59:59' THEN '01 Morning'
- WHEN date_format(transaction_time,'HH:mm:ss') BETWEEN  '12:00:00' AND '16:59:59' THEN '02 Afternoon'
- WHEN date_format(transaction_time,'HH:mm:ss') >= '17:00:00'  THEN '03.Evening'
-   END AS time_Classification,
-   
---spend busket
+   WHEN date_format(transaction_time,'HH:mm:ss') BETWEEN '00:00:00'  AND '11:59:59'  THEN '01 Morning'
+  WHEN date_format(transaction_time,'HH:mm:ss') BETWEEN '12:00:00'  AND '16:59:59'  THEN '02 Afternoon'
+WHEN date_format(transaction_time,'HH:mm:ss') >='17:00:00'  THEN '03 Evening'
+END AS time_Classification,
+
+--COUNT OF IDS
+COUNT (DISTINCT transaction_id) AS number_of_sales,
+COUNT (DISTINCT product_id) AS number_of_Products,
+COUNT (DISTINCT Store_id) AS number_of_stores,
+
+---REVENUE
+SUM(transaction_qty*unit_price) AS Revenue_per_day,
+
+CASE 
+  WHEN SUM(transaction_qty*unit_price)<=50 THEN '01 Low spend'
+    WHEN SUM(transaction_qty*unit_price) BETWEEN 51 AND 100 THEN '02 Med spend'
+    ELSE '03 High spend'
+    END AS Spend_bucket,
+
+--- Categorical Columns
+Store_location,
+product_category,
+product_type,
+product_detail
+from `casestudy`.`brightcoffee`.`bright_coffee_shop1`
+GROUP BY 
+transaction_date,
 CASE
-WHEN (transaction_qty*unit_price)<=50 THEN '01.Low Spender'
-WHEN (transaction_qty*unit_price) BETWEEN 51 AND 200 THEN '02.Medium Spender'
-WHEN (transaction_qty*unit_price) BETWEEN 201 AND 300 THEN '03.Big Spender'
-ELSE  '04.Biggest Spender'
-END AS Spend_busket,
-
-   ------Revenue
-(transaction_qty*unit_price) AS Revenue
-
-FROM `casestudy`.`brightcoffee`.`bright_coffee_shop1`
-GROUP BY ALL
-ORDER BY Revenue DESC;
+   WHEN date_format(transaction_time,'HH:mm:ss') BETWEEN '00:00:00'  AND '11:59:59'  THEN '01 Morning'
+  WHEN date_format(transaction_time,'HH:mm:ss') BETWEEN '12:00:00'  AND '16:59:59'  THEN '02 Afternoon'
+WHEN date_format(transaction_time,'HH:mm:ss') >='17:00:00'  THEN '03 Evening'
+END,
+transaction_date,
+Store_location,
+product_category,
+product_type,
+product_detail;
