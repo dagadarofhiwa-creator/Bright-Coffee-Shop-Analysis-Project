@@ -49,7 +49,7 @@ The presentation proposes a dual-focus strategy: aggressive amplification of hig
 
 -**📊Excel Pivot Table** - is available in PDF format within this repository.- [>🔗View Pivot Table](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/3.Data%20Processing/Pivot%20dashboard.pdf)
 
--**📽️Full presentation** - is available in PDF format within this repository.- [>🔗View Presentation](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/4.Project%20Presentation/Presentation.pptx)
+-**📽️Full presentation** - is available in PDF format within this repository.- [>🔗View Presentation](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/4.Project%20Presentation/Presentation.pdf)
 
 -**🧹Uncleaned Data** - is available in CSV format within this repository.- [>🔗View Uncleaned Data](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/1.Project%20Description%20%26%20Raw%20Data/Bright_Coffee_Shop_Analysis_-_Raw%20Data.csv)
 
