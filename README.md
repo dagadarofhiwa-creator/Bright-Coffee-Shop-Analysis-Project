@@ -1,26 +1,26 @@
-# ☕Bright Coffee Shop: Driving Growth - Sales Performance Review (Jan-Jun 2023)
+# Bright Coffee Shop: Driving Growth - Sales Performance Review (Jan-Jun 2023)
 
-## 📊Overview 
+## Overview 
 
 This repository contains the presentation slides for a comprehensive Sales Performance Review conducted for Bright Coffee Shop, covering the period from January to June 2023.
 
-## 📝Aim
+## Aim
 
 The analysis aims to identify key sales trends, customer behavior patterns, and product performance drivers to inform strategic decisions for accelerating revenue growth and optimizing operational efficiency.
 
 
-## 🔍📈Key Insights
+## Key Insights
 
-* **🗓️Robust Growth:** Overall sales show a strong upward trend from 12% in Jan to 24% in June.
-* **🕒Morning Dominance:** The morning period (06:00-11:59) is the strongest performing segment, generating 55.6% of total revenue and attracting 54.8% of customer volume.
-* **📈Product Leadership:** Coffee and Tea are the top-selling products, collectively contributing 66.6% of total revenue.
+* **Robust Growth:** Overall sales show a strong upward trend from 12% in Jan to 24% in June.
+* **Morning Dominance:** The morning period (06:00-11:59) is the strongest performing segment, generating 55.6% of total revenue and attracting 54.8% of customer volume.
+* **Product Leadership:** Coffee and Tea are the top-selling products, collectively contributing 66.6% of total revenue.
   * Coffee alone accounts for 38.6% of revenue.
   * Tea accounts for 28.1% of revenue.
-* **📉Underperforming Products:** Loose tea, flavors, and packaged chocolate are the lowest-performing products, contributing only a combined 3.4% of monthly revenue.
-* **📍Store Performance:** Hell's Kitchen leads in total revenue (33.8%), closely followed by Astoria (33.2%).
-* **💰Budget Segment Dominance:** The budget price range (R00.00-R10.00) attracts 98.2% of customer volume and contributes 92% of total revenue.
+* **Underperforming Products:** Loose tea, flavors, and packaged chocolate are the lowest-performing products, contributing only a combined 3.4% of monthly revenue.
+* **Store Performance:** Hell's Kitchen leads in total revenue (33.8%), closely followed by Astoria (33.2%).
+* **Budget Segment Dominance:** The budget price range (R00.00-R10.00) attracts 98.2% of customer volume and contributes 92% of total revenue.
 
-## 🎯💡Strategic Recommendations
+## Strategic Recommendations
 
 The presentation proposes a dual-focus strategy: aggressive amplification of high-performing assets coupled with targeted optimization of underutilized potential. Key recommendations include:
 
@@ -34,33 +34,33 @@ The presentation proposes a dual-focus strategy: aggressive amplification of hig
 
 
 # Bright-Coffee-Shop-Analysis-Project
-## 🛠️ Tools & Technologies Used
+##  Tools & Technologies Used
 
-- 🧠 **Miro** – for project planning and workflow mapping  
-- 📊 **Excel** – for data cleaning, preparation, and pivot table analysis
-- 🐘 **SQL** – for querying structured data and extracting insights    
-- 🎨 **PowerPoint** – for designing and presenting the final presentation  
+-  **Miro** – for project planning and workflow mapping  
+-  **Excel** – for data cleaning, preparation, and pivot table analysis
+-  **SQL** – for querying structured data and extracting insights    
+-  **PowerPoint** – for designing and presenting the final presentation  
 
 
-##  🎥 How to View
+##   How to View
 
--💻**SQL Code** - Includes all queries used for data transformation and insights.
+-**SQL Code** - Includes all queries used for data transformation and insights.
 [> 🔗 View SQL Scripts](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/3.Data%20Processing/SQL_Queries.sql)
 
--**📊Excel Pivot Table** - is available in PDF format within this repository.- [>🔗View Pivot Table](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/3.Data%20Processing/Pivot%20dashboard.pdf)
+-**Excel Pivot Table** - is available in PDF format within this repository.- [>🔗View Pivot Table](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/3.Data%20Processing/Pivot%20dashboard.pdf)
 
--**📽️Full presentation** - is available in PDF format within this repository.- [>🔗View Presentation](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/4.Project%20Presentation/Presentation.pdf)
+-**Full presentation** - is available in PDF format within this repository.- [>🔗View Presentation](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/4.Project%20Presentation/Presentation.pdf)
 
--**🧹Uncleaned Data** - is available in CSV format within this repository.- [>🔗View Uncleaned Data](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/1.Project%20Description%20%26%20Raw%20Data/Bright_Coffee_Shop_Analysis_-_Raw%20Data.csv)
+-**Uncleaned Data** - is available in CSV format within this repository.- [>🔗View Uncleaned Data](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/1.Project%20Description%20%26%20Raw%20Data/Bright_Coffee_Shop_Analysis_-_Raw%20Data.csv)
 
--**✨Excel Analysis File - Pivots & Graphs.- [>🔗View Cleaned Data](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/3.Data%20Processing/Excel%20Analysis%20File%20-%20Pivots%20%26%20Graphs.xlsx)
+-**Excel Analysis File - Pivots & Graphs.- [>🔗View Cleaned Data](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/3.Data%20Processing/Excel%20Analysis%20File%20-%20Pivots%20%26%20Graphs.xlsx)
 
--**📝Project Description** - This File Shows The Objective And Aims Of The New CEO.- [>🔗 View Project Description](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/1.Project%20Description%20%26%20Raw%20Data/Project%20Description.pdf)
+-**Project Description** - This File Shows The Objective And Aims Of The New CEO.- [>🔗 View Project Description](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/1.Project%20Description%20%26%20Raw%20Data/Project%20Description.pdf)
 
--**📅Gantt Charts** - is available in PDF format within this repository.- [>🔗View Gantt Charts](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/2.Project%20Planning/Gantt%20Chart.png)
+-**Gantt Charts** - is available in PDF format within this repository.- [>🔗View Gantt Charts](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/2.Project%20Planning/Gantt%20Chart.png)
 
 
--🧠 **Miro Planning** - This includes project goals, KPIs, filters, and design planning
+- **Miro Planning** - This includes project goals, KPIs, filters, and design planning
 [> 🔗View Miro Board](https://github.com/dagadarofhiwa-creator/Bright-Coffee-Shop-Analysis-Project/blob/main/2.Project%20Planning/Miro%20Flowchart.png)
 
 
